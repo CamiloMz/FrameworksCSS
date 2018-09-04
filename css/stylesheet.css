@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+/*.logo-container,.social-container,.nav-container,.img-art-container,.txt-container,.article-container,.comment-container{
+  border: 2px solid black;
+}*/
+
+body{
+  background-color: rgb(215, 215, 215) ;
+}
+
+header,.nav-container{
+  background:rgb(74, 74, 71) ;
+}
+
+
+.logo-img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.social-container{
+  padding-top: 60px;
+}
+
+.comment-container{
+  margin-top: 2px;
+}
