@@ -5,98 +5,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Omar Camilo Torres Martínez">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
   <!-- Owned CSS -->
   <link rel='stylesheet' href='../css/stylesheet.css'>
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Awesome Fonts -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <title>Blog de Música</title>
 </head>
 <body>
   <header>
-    <div class="row">
-      <div class="logo-container text-left; col-xs-2 col-sm-2 col-md-2 col-lg-2 offset-1">
-        <img src="../img/logo.jpg" class="img-fluid logo-img" alt="Responsive image">
+    <nav class="navbar">
+      <div class="col-12 col-sm-12 logo-container text-center">
+        <a href="#" class="navbar-brand">
+          <img src="../img/logo.jpg" class="img-fluid logo-img rounded-circle" alt="Responsive image">
+        </a>
       </div>
-      <div class="social-container col-xs-4 col-sm-4 col-md-4 col-lg-4 offset-5 text-center">
-        <i class="fab fa-youtube fa-2x text-white"></i>
-        <i class="fab fa-facebook fa-2x text-white"></i>
-        <i class="fab fa-instagram fa-2x text-white"></i>
-        <i class="fab fa-pinterest-square fa-2x text-white"></i>
-        <i class="fab fa-twitter-square fa-2x text-white"></i>
+      <div class="col-12 col-sm-12 social-container text-center">
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-    </div>
+      <div class="col-12 col-sm-12 nav-container text-center">
+        <ul class="nav flex-column nav-tabs nav-fill navigation">
+          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Letras</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Acordes</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
-    <div class="row">
-      <div class="nav-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <nav class="nav nav-pills flex-column flex-sm-row">
-          <a class="flex-sm-fill text-sm-center nav-link bg-light text-dark" href="#">Inicio</a>
-          <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Artistas</a>
-          <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Grupos</a>
-          <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Top 10</a>
-          <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Letras</a>
-          <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Acordes</a>
-        </nav>
+  <section>
+    <div class="row col-12 col-sm-12">
+      <div class="card article-container mt-4 mt-sm-4 ml-4 ml-sm-4">
+        <h1 class="card-header text-center">Tributo a Pink Floyd</h1>
+        <div class="card-body">
+          <p class="card-text text-justify">Sistema de Proyección Láser Fulldome, donde se fusiona de manera perfecta las luces y la música generando sensaciones envolventes en el espectador.</br></br>
+          Recomendación: el show láser contiene luces intermitentes y brillos fuertes que pueden causar molestias a las personas con sensibilidad a la luz o con otras condiciones preexistentes.</br></br>
+          <strong>DURACIÓN:</strong> 43 minutos - Apto para todo público.</br></br>
+          <strong>PINK FLOYD:</strong> <em>"DARK SIDE OF THE MOON"</em>: Speak to Me, Breathe, On the Run, Time, The Great Gig in the Sky, Money, Us and Them, Any Colour You Like, Brain Damage, Eclipse.</br></br>
+          <strong>LUGAR:</strong> DOMO - Plaetario de Bogotá de 08:00 PM A 09:00 PM</p>
+          <div class="card-img text-center">
+            <img src="../img/PinkF-img.gif" class="img-fluid img-content img-thumbnail" alt="Responsive image">
+          </div>
+          <div class="input-group mt-3 mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-comments fa-2x input-group-text"></i>
+            </div>
+            <textarea class="form-control" id="Comment" rows="2" placeholder="Comentario..."></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="card article-container mt-4 mt-sm-4 ml-4 ml-sm-4 mb-5 mb-sm-5">
+        <div class="card-img-top text-center">
+          <img src="../img/Escor-img.jpg" class="img-fluid img-content img-thumbnail" alt="Responsive image">
+        </div>
+        <h1 class="card-header text-center mt-sm-3">Concierto de Eskorbuto</h1>
+        <div class="card-body">
+          <p class="card-text text-justify">En 2018 llega "La demencial fiesta acelerada" a Bogotá con PAKO GALÁN, Eskorbuto único integrante vivo de la legendaria banda Oficial de ESKORBUTO, Pako visitara la ciudad el próximo 25 de octubre, con un concierto que hara vibrar a sus seguidores, con un selecto recorrido musical por algunas de los temas más contundentes del rock radical vasco.</br></br>
+
+          El próximo mes de octubre, el continente americano podrá escuchar en vivo la música de los “demenciales chicos acelerados”, encabezados por el legendario Pako Galán, único integrante vivo de Eskorbuto, banda que nació en el País Vasco en los años ochenta.</br></br>
+
+          <strong>FECHA y HORA:</strong> JUEVES 25 DE OCTUBRE 2018 6:00 p.m.</br>
+          <strong>VALOR y BOLETERIA II ETAPA:</strong> $ 60.000 (Hasta 24 de Octubre)</br>
+          <strong>DÍA DEL EVENTO:</strong> $ 80.000</br></p>
+          <div class="input-group mt-3 mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-comments fa-2x input-group-text"></i>
+            </div>
+            <textarea class="form-control" id="Comment" rows="2" placeholder="Comentario..."></textarea>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 content-container">
-        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 offset-2 article-container">
-          <div class="row" >
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 txt-container float-right">
-              <h2 class="article-title">Tributo a Pink Floyd</h2>
-              </br>
-              <p class="text-justify">Sistema de Proyección Láser Fulldome, donde se fusiona de manera perfecta las luces y la música generando sensaciones envolventes en el espectador.</br></br>
-              Recomendación: el show láser contiene luces intermitentes y brillos fuertes que pueden causar molestias a las personas con sensibilidad a la luz o con otras condiciones preexistentes.</br></br>
-              <strong>DURACIÓN:</strong> 43 minutos - Apto para todo público.</br></br>
-              <strong>PINK FLOYD:</strong> <em>"DARK SIDE OF THE MOON"</em>: Speak to Me, Breathe, On the Run, Time, The Great Gig in the Sky, Money, Us and Them, Any Colour You Like, Brain Damage, Eclipse.</br></br>
-              <strong>LUGAR:</strong> DOMO - Plaetario de Bogotá de 08:00 PM A 09:00 PM</p>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 img-art-container text-right">
-              <img src="../img/PinkF-img.gif" class="img-fluid img-content img-thumbnail" alt="Responsive image">
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 text-right">
-              <i class="fas fa-comments fa-2x"></i>
-            </div>
-            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 comment-container ">
-              <textarea class="form-control" id="Comment" rows="2" placeholder="Comentario..."></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 offset-2 article-container">
-          <div class="row" >
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 img-art-container text-left float-right">
-              <img src="../img/Escor-img.jpg" class="img-fluid img-content img-thumbnail" alt="Responsive image">
-            </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 txt-container">
-              <h2 class="article-title">Concierto de ESKORBUTO</h2>
-              </br>
-              <p class="text-justify">En 2018 llega "La demencial fiesta acelerada" a Bogotá con PAKO GALÁN, Buto Eskor único integrante vivo de la legendaria banda Oficial de ESKORBUTO, Pako visitara la ciudad el próximo 25 de octubre, con un concierto que hara vibrar a sus seguidores, con un selecto recorrido musical por algunas de los temas más contundentes del rock radical vasco.</br></br>
+  </section>
 
-              El próximo mes de octubre, el continente americano podrá escuchar en vivo la música de los “demenciales chicos acelerados”, encabezados por el legendario Pako Galán, único integrante vivo de Eskorbuto, banda que nació en el País Vasco en los años ochenta.</br></br>
-
-              <strong>FECHA y HORA:</strong> JUEVES 25 DE OCTUBRE 2018 6:00 p.m.
-              <strong>VALOR y BOLETERIA II ETAPA:</strong> $ 60.000 (Hasta 24 de Octubre)
-              <strong>DÍA DEL EVENTO:</strong> $ 80.000
-            </p>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 text-right">
-              <i class="fas fa-comments fa-2x"></i>
-            </div>
-            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 comment-container ">
-              <textarea class="form-control" id="Comment" rows="2" placeholder="Comentario..."></textarea>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 search-container">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 search-container d-none d-sm-none">
         <div class="input-group mt-3 mr-2">
           <div class="input-group-prepend">
             <i class="fas fa-search input-group-text" id="search-icon"></i>
