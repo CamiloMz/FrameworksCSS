@@ -10,11 +10,11 @@ body{
   border: 3px solid rgb(205, 206, 231);
   width: 150px;
   margin-top: 1rem;
-  transition: all 0.8s;
+  transition: all 0.7s ease-in;
 }
 
 .logo-img:hover{
-  width: 180px;
+  width: 200px;
 }
 
 nav{
@@ -52,6 +52,11 @@ nav{
   font-size: 1.2rem;
 }
 
+.navigation li a:checked{
+  background: rgb(205, 206, 231);
+  color: rgb(5, 8, 55);
+  font-size: 1.2rem;
+}
 
 .article-container{
   color: rgb(5, 8, 55);
@@ -63,4 +68,11 @@ nav{
 .article-title{
   background: rgb(5, 8, 55);
   color: rgb(205, 206, 231);
+}
+
+@media(min-width:576px){
+  body{
+    max-width:1200px;
+    margin: 0 auto;
+  }
 }

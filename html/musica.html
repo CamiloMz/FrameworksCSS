@@ -17,21 +17,21 @@
 <body>
   <header>
     <nav class="navbar">
-      <div class="col-12 col-sm-12 logo-container text-center">
+      <div class="col-12 col-sm-12 col-md-2 offset-md-1 logo-container text-center">
         <a href="#" class="navbar-brand">
           <img src="../img/logo.jpg" class="img-fluid logo-img rounded-circle" alt="Responsive image">
         </a>
       </div>
-      <div class="col-12 col-sm-12 social-container text-center">
-        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <div class="col-12 col-sm-12 col-md-6 social-container text-sm-center text-md-right pt-md-5 mr-md-5">
+        <a href="#"><i class="fab fa-youtube fa-2x mt-md-5"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x mt-md-5"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x mt-md-5"></i></a>
+        <a href="#"><i class="fab fa-pinterest fa-2x mt-md-5"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x mt-md-5"></i></a>
       </div>
       <div class="col-12 col-sm-12 nav-container text-center">
-        <ul class="nav flex-column nav-tabs nav-fill navigation">
-          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <ul class="nav nav-tabs flex-sm-column flex-md-row nav-tabs nav-fill navigation">
+          <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
@@ -41,20 +41,20 @@
       </div>
     </nav>
   </header>
-  <section>
-    <div class="row col-12 col-sm-12">
+  <section class="row">
+    <div class="row col-12 col-sm-12 col-md-8 col-lg-8">
       <div class="card article-container mt-4 mt-sm-4 ml-4 ml-sm-4">
-        <h1 class="card-header text-center">Tributo a Pink Floyd</h1>
-        <div class="card-body">
-          <p class="card-text text-justify">Sistema de Proyección Láser Fulldome, donde se fusiona de manera perfecta las luces y la música generando sensaciones envolventes en el espectador.</br></br>
+        <h1 class="card-header text-center article-title">Tributo a Pink Floyd</h1>
+        <div class="row card-body d-flex">
+          <p class="card-text text-justify col-md-8 col-lg-8">Sistema de Proyección Láser Fulldome, donde se fusiona de manera perfecta las luces y la música generando sensaciones envolventes en el espectador.</br></br>
           Recomendación: el show láser contiene luces intermitentes y brillos fuertes que pueden causar molestias a las personas con sensibilidad a la luz o con otras condiciones preexistentes.</br></br>
           <strong>DURACIÓN:</strong> 43 minutos - Apto para todo público.</br></br>
           <strong>PINK FLOYD:</strong> <em>"DARK SIDE OF THE MOON"</em>: Speak to Me, Breathe, On the Run, Time, The Great Gig in the Sky, Money, Us and Them, Any Colour You Like, Brain Damage, Eclipse.</br></br>
           <strong>LUGAR:</strong> DOMO - Plaetario de Bogotá de 08:00 PM A 09:00 PM</p>
-          <div class="card-img text-center">
-            <img src="../img/PinkF-img.gif" class="img-fluid img-content img-thumbnail" alt="Responsive image">
+          <div class="card-img text-center col-md-4 col-lg-4 ">
+            <img src="../img/PinkF-img.gif" class="img-fluid img-content img-thumbnail mt-md-5 mt-lg-5" alt="Responsive image">
           </div>
-          <div class="input-group mt-3 mb-3">
+          <div class="col-md-12 input-group mt-3 mb-3 clearfix">
             <div class="input-group-prepend">
               <i class="fas fa-comments fa-2x input-group-text"></i>
             </div>
@@ -62,20 +62,25 @@
           </div>
         </div>
       </div>
+
       <div class="card article-container mt-4 mt-sm-4 ml-4 ml-sm-4 mb-5 mb-sm-5">
-        <div class="card-img-top text-center">
-          <img src="../img/Escor-img.jpg" class="img-fluid img-content img-thumbnail" alt="Responsive image">
+        <h1 class="card-header text-center article-title d-none d-sm-none d-md-block">Concierto de Eskorbuto</h1>
+        <div class="card-img text-center col-md-4 col-lg-4 d-md-none d-lg-none">
+          <img src="../img/Escor-img.jpg" class="img-fluid img-content img-thumbnail mt-md-5 mt-lg-5" alt="Responsive image">
         </div>
-        <h1 class="card-header text-center mt-sm-3">Concierto de Eskorbuto</h1>
-        <div class="card-body">
-          <p class="card-text text-justify">En 2018 llega "La demencial fiesta acelerada" a Bogotá con PAKO GALÁN, Eskorbuto único integrante vivo de la legendaria banda Oficial de ESKORBUTO, Pako visitara la ciudad el próximo 25 de octubre, con un concierto que hara vibrar a sus seguidores, con un selecto recorrido musical por algunas de los temas más contundentes del rock radical vasco.</br></br>
+        <h1 class="card-header text-center article-title d-md-none d-lg-none">Concierto de Eskorbuto</h1>
+        <div class="row card-body">
+          <div class="card-img text-center col-md-4 col-lg-4 d-none d-sm-none d-md-block d-lg-block">
+            <img src="../img/Escor-img.jpg" class="img-fluid img-content img-thumbnail mt-md-5 mt-lg-5" alt="Responsive image">
+          </div>
+          <p class="card-text text-justify order-md-3 col-md-8 col-lg-8">En 2018 llega "La demencial fiesta acelerada" a Bogotá con PAKO GALÁN, Eskorbuto único integrante vivo de la legendaria banda Oficial de ESKORBUTO, Pako visitara la ciudad el próximo 25 de octubre, con un concierto que hara vibrar a sus seguidores, con un selecto recorrido musical por algunas de los temas más contundentes del rock radical vasco.</br></br>
 
           El próximo mes de octubre, el continente americano podrá escuchar en vivo la música de los “demenciales chicos acelerados”, encabezados por el legendario Pako Galán, único integrante vivo de Eskorbuto, banda que nació en el País Vasco en los años ochenta.</br></br>
 
           <strong>FECHA y HORA:</strong> JUEVES 25 DE OCTUBRE 2018 6:00 p.m.</br>
           <strong>VALOR y BOLETERIA II ETAPA:</strong> $ 60.000 (Hasta 24 de Octubre)</br>
           <strong>DÍA DEL EVENTO:</strong> $ 80.000</br></p>
-          <div class="input-group mt-3 mb-3">
+          <div class="input-group mt-3 mb-3 order-md-4">
             <div class="input-group-prepend">
               <i class="fas fa-comments fa-2x input-group-text"></i>
             </div>
@@ -84,9 +89,7 @@
         </div>
       </div>
     </div>
-  </section>
-
-      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 search-container d-none d-sm-none">
+    <div class="col-md-4 col-lg-4 search-container d-none d-sm-none d-md-block d-lg-block">
         <div class="input-group mt-3 mr-2">
           <div class="input-group-prepend">
             <i class="fas fa-search input-group-text" id="search-icon"></i>
@@ -112,7 +115,6 @@
         </ul>
       </div>
     </div>
-
-  </header>
+  </section>
 </body>
 </html>
