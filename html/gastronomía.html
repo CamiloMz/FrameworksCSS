@@ -8,6 +8,7 @@
   <meta name="author" content="Omar Camilo Torres Martínez">
   <!-- Foundation CSS -->
   <link rel="stylesheet" href="../css/foundation.min.css" />
+  <link rel="stylesheet" href="../fonts/foundation-icons/foundation-icons.css" />
   <!-- Owned CSS -->
   <link rel="stylesheet" href="../css/app.css">
   <!-- Awesome Fonts -->
@@ -17,34 +18,141 @@
 <body>
   <div class="grid-container">
     <div class="grid-x">
-      <div class="cell small-3">
+      <div class="cell large-4 medium-4 hide-for-small-only">
         <h1>RECETEAME</h1>
         <h5 class="subheader text-right">Recetas para todos</h5>
       </div>
     </div>
     <div class="grid-container">
       <div class="grid-x">
-        <div class="cell small-4">
+        <div class="cell large-4 medium-4 hide-for-small-only">
               <ul class="vertical tabs" data-tabs id="example-tabs">
                 <li class="tabs-title is-active"><a href="#" aria-selected="true">Inicio</a></li>
                 <li class="tabs-title"><a href="#v">Mi plato Perfecto</a></li>
                 <li class="tabs-title"><a href="#">Mis recetas</a></li>
-                <li class="tabs-title"><a href="#">Favoritos</a></li>
+                <li class="tabs-title"><a href="#">Favoritos</a>
+                  <div class="grid-x">
+                    <div class="cell large-4 medium-4"><img src="../img/margarita.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4"><img src="../img/mezcla.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4"><img src="../img/pepito.jpg" alt=""></div>
+                  </div>
+                  <div class="grid-x">
+                    <div class="cell large-4 medium-4"><img src="../img/ron.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4"><img src="../img/tequila.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4"><img src="../img/vodka.jpg" alt=""></div>
+                  </div>
+                </li>
                 <li class="tabs-title"><a href="#">Historial</a></li>
               </ul>
         </div>
-        <div class="content cell small-8">
-          <h1>Titulo</h1>
-          <img src="../img/logo.jpg" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt illum magni, in natus non facilis eius asperiores quaerat quae animi doloremque ipsam perspiciatis, illo quo vel dolores enim atque expedita! Fuga rerum dolore, aliquid reiciendis saepe eligendi vel eius nulla placeat possimus dolores ullam ab fugit, suscipit vero impedit amet?</p>
-          <div class="">
-            <div class="">
-              <i class="fas fa-comments fa-2x"></i>
+        <div class="content cell small-12 large-8 medium-8">
+          <div class="title-container text-left">
+            <h1 class="content-title">B 52 Cocktail</h1>
+            <h5 class="subheader content-title">10 de Septiembre del 2018</h5>
+          </div>
+          <img src="../img/b52-cocktail.jpg" class="thumbnail receta-img" alt="">
+          <p class="text-justify content-txt">El cocktail B 52 es una bebida embriagadora e ideal para tomar a pequeños sorbos a media tarde o antes de acostarse.<br>
+
+          <br>No se conoce muy bien cuál es el origen de este trago, pero lo que si se sabe a ciencia cierta es que su nombre fue dedicado a un avión de combate, exactamente al Boeing B-52 Stratortress, un bombardero de las fuerzas aéreas norteamericanas. El bombardero fue el encargado de incendiar gran parte de la jungla de Vietnam durante la guerra, y fue de ahí de donde surgió la variante flambeada de este cocktail bautizado con el nombre de Flaming B 52.</p>
+          <div class="input-group input-container">
+            <textarea class="input-group-field"></textarea>
+            <button type="button" class="button input-group-button radius bordered shadow alert"><i class="fi-pencil"></i>Enviar</button>
+          </div>
+          <div class="grid-y coments-container">
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/mujer.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>ANA09_:</strong> Genial! voy a investigar con qué más se puede combinar.
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
             </div>
-          <textarea class="" id="Comment" rows="2" placeholder="Comentario..."></textarea>
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/hombre.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>Chefsito:</strong> Este es ideal para acompañar comidas.
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/mujer.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>R O X A N N E:</strong>Que buena receta, estaré esperando la próxima!
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content cell small-12 large-8 medium-8 medium-offset-4 large-offset-4">
+          <div class="title-container text-left">
+            <h1 class="content-title">BB Cocktail</h1>
+            <h5 class="subheader content-title">11 de Septiembre del 2018</h5>
+          </div>
+          <img src="../img/bb-cocktail.jpg" class="thumbnail  receta-img" alt="">
+          <p class="text-justify content-txt">El cocktail B&B, mezcla de Bénédictine y Brandy, es un clásico referente en cuanto a bebidas con clase y estilo.
+          <br><br>
+          Aunque algunos prefieren tomar el cocktail B&B con hielo, lo característico de este elegante trago es que los dos ingredientes se sirven mezclados en una copa de Brandy previamente calentada y de este modo puede disfrutarse de su embriagador aroma antes de ser consumido.<br><br>
+          Es un combinado ideal para tomar por la noche o antes de acostarse.</p>
+          <div class="input-group input-container">
+            <textarea class="input-group-field"></textarea>
+            <button type="button" class="button input-group-button radius bordered shadow alert"><i class="fi-pencil"></i>Enviar</button>
+          </div>
+          <div class="grid-y coments-container">
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/mujer.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>Maria23:</strong> Que gran post, aprendi mucho sobre los cocktails.
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/hombre.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>Carlos09:</strong> Tengo una pregunta, me gustaría aprender más sobre la proporción en los ingredientes usados.
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell small-6 coment-container">
+              <div class="grid-x">
+                <div class="cell small-2 avatar-container">
+                  <img src="../img/mujer.png" class="avatar-img" alt="">
+                </div>
+                <div class="cell small-10 coment-txt-container">
+                  <p><strong>R O X A N N E:</strong> Anoteado, esta misma tarde estaré probandolo.
+                    <i class="fi-heart"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
 
 

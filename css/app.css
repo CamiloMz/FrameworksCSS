@@ -1,3 +1,48 @@
+body{
+  background-image: url(../img/background.jpg);
+}
 .content{
-  border: 2px solid black;
+  background: rgba(246, 41, 41, 0.8);
+  margin-bottom: 3.5rem;
+  box-shadow: 0px 30px 40px 10px rgba(214, 213, 213, 0.79);
+  -webkit-box-shadow: 0px 30px 40px 10px rgba(214, 213, 213, 0.79);
+  -moz-box-shadow:0px 30px 40px 10px rgba(214, 213, 213, 0.79) ;
+}
+
+.receta-img{
+  width: 100%;
+  filter: opacity(80%);
+}
+
+.title-container{
+  padding: 0.5rem;
+  background: rgba(107, 11, 11, 0.9);
+}
+
+.content-title{
+  color: rgb(214, 213, 231);
+}
+
+.content-txt{
+  color: rgb(214, 213, 231);
+  padding: 0.5rem;
+}
+
+.input-container,.coments-container,.coment-txt-container{
+  padding: 0.5rem;
+}
+.coment-container{
+  border-radius: 10% 10% 50% 10%;
+  background: rgb(214, 213, 231);
+  padding: 0.5rem;
+  color: rgb(107, 11, 11);
+  margin-bottom: 0.5rem;
+  box-shadow: 0px 10px 20px 10px rgba(107, 11, 11, 0.9);
+  -webkit-box-shadow: 0px 10px 20px 10px rgba(107, 11, 11, 0.9);
+  -moz-box-shadow:0px 10px 20px 10px rgba(107, 11, 11, 0.9);
+}
+
+.avatar-img{
+background: rgba(107, 11, 11, 0.9);
+border-radius: 50%;
 }
