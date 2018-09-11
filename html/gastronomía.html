@@ -16,36 +16,44 @@
   <title>Blog de Gastronomía</title>
 </head>
 <body>
-  <div class="grid-container">
+  <div class="grid-container main-container">
     <div class="grid-x">
       <div class="cell large-4 medium-4 hide-for-small-only">
         <h1>RECETEAME</h1>
-        <h5 class="subheader text-right">Recetas para todos</h5>
+        <h5 class="text-right">Recetas para todos</h5>
       </div>
     </div>
     <div class="grid-container">
       <div class="grid-x">
-        <div class="cell large-4 medium-4 hide-for-small-only">
-              <ul class="vertical tabs" data-tabs id="example-tabs">
-                <li class="tabs-title is-active"><a href="#" aria-selected="true">Inicio</a></li>
-                <li class="tabs-title"><a href="#v">Mi plato Perfecto</a></li>
-                <li class="tabs-title"><a href="#">Mis recetas</a></li>
-                <li class="tabs-title"><a href="#">Favoritos</a>
+        <div class="cell large-4 medium-4 hide-for-small-only left-column">
+              <ul class="vertical menu main">
+                <li><a class="main-item" href="#">Inicio</a></li>
+                <li><a class="main-item" href="#v">Mi plato Perfecto</a></li>
+                <li><a class="main-item" href="#">Mis recetas</a></li>
+                <li><a class="main-item" href="#">Favoritos</a>
                   <div class="grid-x">
-                    <div class="cell large-4 medium-4"><img src="../img/margarita.jpg" alt=""></div>
-                    <div class="cell large-4 medium-4"><img src="../img/mezcla.jpg" alt=""></div>
-                    <div class="cell large-4 medium-4"><img src="../img/pepito.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/margarita.jpg" alt=""></a></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/mezcla.jpg" alt=""></a></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/pepito.jpg" alt=""></a></div>
                   </div>
                   <div class="grid-x">
-                    <div class="cell large-4 medium-4"><img src="../img/ron.jpg" alt=""></div>
-                    <div class="cell large-4 medium-4"><img src="../img/tequila.jpg" alt=""></div>
-                    <div class="cell large-4 medium-4"><img src="../img/vodka.jpg" alt=""></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/ron.jpg" alt=""></a></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/tequila.jpg" alt=""></a></div>
+                    <div class="cell large-4 medium-4 fav-item"><a class="fav-link" href="#"><img class="thumbnail fav-img" src="../img/vodka.jpg" alt=""></a></div>
                   </div>
                 </li>
-                <li class="tabs-title"><a href="#">Historial</a></li>
+                <li class="historial"><a class="main-item" href="#">Historial</a>
+                  <ul class="nested vertical menu historial-menu">
+                    <li class="historial-item"><a href="#">Recetas de Cocktails</a></li>
+                    <li class="historial-item"><a href="#">Cocktails con Vodka</a></li>
+                    <li class="historial-item"><a href="#">Cocktails sin alcohol</a></li>
+                    <li class="historial-item"><a href="#">Cocktails con Tequila</a></li>
+                    <li class="historial-item"><a href="#">Como prepara Cocktails</a></li>
+                  </ul>
+                </li>
               </ul>
         </div>
-        <div class="content cell small-12 large-8 medium-8">
+        <div class="content cell small-12 large-7 medium-7 medium-offset-1 large-offset-1">
           <div class="title-container text-left">
             <h1 class="content-title">B 52 Cocktail</h1>
             <h5 class="subheader content-title">10 de Septiembre del 2018</h5>
@@ -97,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="content cell small-12 large-8 medium-8 medium-offset-4 large-offset-4">
+        <div class="content cell small-12 large-7 medium-7 medium-offset-5 large-offset-5">
           <div class="title-container text-left">
             <h1 class="content-title">BB Cocktail</h1>
             <h5 class="subheader content-title">11 de Septiembre del 2018</h5>

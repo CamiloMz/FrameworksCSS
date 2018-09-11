@@ -1,17 +1,30 @@
 body{
   background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
 }
+
+.main-container{
+  background-color: rgba(214, 213, 231, 0.5);
+}
+
+h1, h5 {
+  color: rgb(107, 11, 11);
+}
+
 .content{
   background: rgba(246, 41, 41, 0.8);
   margin-bottom: 3.5rem;
-  box-shadow: 0px 30px 40px 10px rgba(214, 213, 213, 0.79);
-  -webkit-box-shadow: 0px 30px 40px 10px rgba(214, 213, 213, 0.79);
-  -moz-box-shadow:0px 30px 40px 10px rgba(214, 213, 213, 0.79) ;
+  box-shadow: 0px 30px 40px 10px rgba(107, 11, 11, 0.79);
+  -webkit-box-shadow: 0px 30px 40px 10px rgba(107, 11, 11, 0.79);
+  -moz-box-shadow:0px 30px 40px 10px rgba(107, 11, 11, 0.79) ;
 }
 
 .receta-img{
   width: 100%;
-  filter: opacity(80%);
+  filter: opacity(70%);
 }
 
 .title-container{
@@ -28,13 +41,17 @@ body{
   padding: 0.5rem;
 }
 
-.input-container,.coments-container,.coment-txt-container{
+.input-container,.coment-txt-container{
   padding: 0.5rem;
 }
+
+.coments-container{
+  padding: 1.5rem;
+}
+
 .coment-container{
   border-radius: 10% 10% 50% 10%;
   background: rgb(214, 213, 231);
-  padding: 0.5rem;
   color: rgb(107, 11, 11);
   margin-bottom: 0.5rem;
   box-shadow: 0px 10px 20px 10px rgba(107, 11, 11, 0.9);
@@ -45,4 +62,47 @@ body{
 .avatar-img{
 background: rgba(107, 11, 11, 0.9);
 border-radius: 50%;
+}
+
+.left-column{
+  background: rgba(214, 213, 231, 0.7);
+  max-height: 650px;
+  box-shadow: 0px 20px 40px 10px rgba(107, 11, 11, 0.79);
+  -webkit-box-shadow: 0px 20px 40px 10px rgba(107, 11, 11, 0.79);
+  -moz-box-shadow:0px 20px 40px 10px rgba(107, 11, 11, 0.79) ;
+}
+
+.main li a{
+  color: rgb(107, 11, 11);
+  transition: all 0.5s;
+}
+
+.main li .main-item:hover{
+  background-color: rgba(107, 11, 11, 0.9);
+  color: rgb(214, 213, 231);
+  font-size: 1.2rem;
+}
+
+.fav-item{
+  padding: 0.5rem;
+}
+
+.fav-img{
+  filter: grayscale(100%);
+}
+
+.fav-link{
+  padding: 0 !important;
+}
+.fav-img:hover{
+  filter: none;
+}
+
+
+.historial-menu{
+  background-color: rgba(214, 213, 231, 0.3);
+}
+
+.historial-menu li a{
+  color: rgb(246, 41, 41);
 }
